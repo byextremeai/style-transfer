@@ -22,7 +22,11 @@ git clone https://github.com/byextremeai/style-transfer.git
 
 ### 2. Place the Files
 
-Move the extracted `style-transfer` folder into your Claude Code project under `.claude/skills/`:
+Open your project in Claude Code and say:
+
+> "Create a .claude/skills folder"
+
+Then move the extracted `style-transfer` folder into `.claude/skills/`:
 
 ```
 your-project/
