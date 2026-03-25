@@ -6,15 +6,7 @@ Automate product promotional image generation by analyzing reference image style
 
 ## Getting Started
 
-### 1. Install Antigravity
-
-Go to [antigravity.google](https://antigravity.google/) and install Antigravity.
-
-Then open the Extensions panel, search for `Claude Code`, and click **Install**.
-
----
-
-### 2. Download from GitHub
+### 1. Download from GitHub
 
 ```
 https://github.com/byextremeai/style-transfer
@@ -28,7 +20,7 @@ git clone https://github.com/byextremeai/style-transfer.git
 
 ---
 
-### 3. Place the Files
+### 2. Place the Files
 
 Move the extracted `style-transfer` folder into your Claude Code project under `.claude/skills/`:
 
@@ -47,7 +39,7 @@ your-project/
 
 ---
 
-### 4. Install Python
+### 3. Install Python
 
 If Python is not installed:
 
@@ -63,7 +55,7 @@ python --version
 
 ---
 
-### 5. Install Dependencies
+### 4. Install Dependencies
 
 Run this in your terminal (any directory):
 
@@ -73,7 +65,7 @@ pip install fal-client python-dotenv
 
 ---
 
-### 6. Get a FAL API Key
+### 5. Get a FAL API Key
 
 1. Go to [fal.ai](https://fal.ai) → Sign up
 2. Dashboard → **API Keys** → **Create new key**
@@ -82,7 +74,7 @@ pip install fal-client python-dotenv
 
 ---
 
-### 7. Set Up .env
+### 6. Set Up .env
 
 Create a `.env` file in your project root (same level as the `.claude` folder):
 
@@ -96,7 +88,7 @@ FAL_KEY=your-api-key-here
 
 ## Usage
 
-### 1. Open your project in Antigravity
+### 1. Open your project in Claude Code
 
 ### 2. Start the skill
 
