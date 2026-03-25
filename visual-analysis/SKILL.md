@@ -15,7 +15,7 @@ description: >
 Every run starts fresh — always re-analyze reference images and always overwrite `input/prompts.json`.
 Never reuse previous prompts. Do not wait for user confirmation between steps.
 
-> **Visual Analysis Reference**: Read `style-analysis.md` for the complete taxonomy of visual dimensions and prompt keywords.
+> **Visual Analysis Reference**: Read `references/style-analysis.md` for the complete taxonomy of visual dimensions and prompt keywords.
 
 ## Pipeline (run in sequence, automatically)
 
@@ -26,7 +26,7 @@ Never reuse previous prompts. Do not wait for user confirmation between steps.
 ### Step 1: Setup workspace
 
 ```bash
-python .claude/skills/style-transfer/visual-analysis/generate.py
+python .claude/skills/style-transfer/visual-analysis/scripts/generate.py
 ```
 
 Creates `input/references/` and `input/products/` folders automatically.
@@ -88,7 +88,7 @@ Write `input/prompts.json`:
 **Immediately after writing prompts.json**, run:
 
 ```bash
-python .claude/skills/style-transfer/visual-analysis/generate.py
+python .claude/skills/style-transfer/visual-analysis/scripts/generate.py
 ```
 
 After generation, report how many images were generated and where (`output/{product-name}/`).
